@@ -30,7 +30,7 @@ Fast, customizable application launcher and menu system. Includes multiple color
 
 1. Clone this repository to your dotfiles directory:
    ```bash
-   git clone https://github.com/yourusername/i3-Dotfiles ~/.config/
+   git clone https://github.com/S0FTS0RR0W/i3-Dotfiles ~/.config/
    ```
 
 2. Ensure required packages are installed:
