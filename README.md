@@ -35,6 +35,9 @@ Fast, customizable application launcher and menu system. Includes multiple color
 
 2. Ensure required packages are installed:
    ```bash
+   # On Arch Linux
+   sudo pacman -S i3-wm i3status kitty picom rofi chromium feh 
+
    # On Debian/Ubuntu
    sudo apt install i3 i3status kitty picom rofi
 
