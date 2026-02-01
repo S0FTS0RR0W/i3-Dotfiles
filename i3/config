@@ -12,7 +12,7 @@
 set $mod Mod4
 
 # Using Feh for wallpaper settings
-exec --no-startup-id feh --bg-scale /home/charlie/Pictures/wallpapers/wallpaper.jpeg
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.jpg
 
 # picom for transitions and transparency
 exec --no-startup-id picom
@@ -34,7 +34,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-fancy --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -102,7 +102,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s exec spotify
+bindsym $mod+s layout stacking
 #bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -209,3 +209,5 @@ default_floating_border none
 # start browser
 
 bindsym $mod+b exec chromium
+
+gaps inner 8
